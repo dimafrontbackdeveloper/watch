@@ -1,0 +1,711 @@
+
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+   font-family: 'PT Sans';
+   box-sizing: border-box;
+}
+
+a{
+   text-decoration: none;
+}
+.contact{
+   position: absolute;
+   max-width: 1920px;
+   height: 44px;
+   background: #000000;
+}
+.header_contact_wrapper{
+   display: grid;
+   grid-template-rows: 14px 16px 14px;
+   grid-template-columns: 406px 470px 500px 250px 405px;
+}
+.timetable{
+   grid-area: 2/2/3/3;
+   color: #969696;
+}
+.img_phone{
+   margin-right: 16px;
+}
+.conect{
+   grid-area: 2/4/3/5;
+}
+.registration_and_input{
+   margin-left: 15px;
+}
+.input{
+  color: #969696;
+}
+.registration{
+   color: #969696;
+}
+.input:hover{
+   color:#d8d5d5;
+}
+.registration:hover{
+   color:#d8d5d5;
+}
+/**/
+.header_nav{
+   position: absolute;
+   width: 1920px;
+   height: 80px;
+   top: 44px;
+   background: #0F0F0F;
+}
+
+.text_intro{
+   color: #FFFFFF;
+   font-weight: bold;
+   font-size: 36px;
+   width: 104px;
+   height: 49px;
+   margin-left: 405px;
+   line-height: 66px;
+   margin-right: 470px;
+   font-family: "Post No Bills Jaffna";
+}
+.header_nav_block{
+   color: #969696;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   background: #0F0F0F;
+   padding: 20px 20px;
+   max-width: 136px;
+   height: 80px;
+   border:1px solid #0F0F0F;
+   margin-bottom: 3px;
+}
+.header_nav_block:hover{
+   color:white;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   background:grey;
+   padding: 30px 20px;
+   max-width: 136px;
+   height: 80px;
+   border:1px solid #969696;
+}
+.header_nav_img{
+   margin-left: 81px;
+}
+.korzinka{
+   margin-right: 44px;
+}
+/**/
+
+.content_describe img{
+   max-width: 1920px;
+   height: 810px;
+   left: 0px;
+   top: 124px;
+   position: relative;
+}
+.content_describe_block{
+   top: 280px;
+   left:800px;
+   position: absolute;
+   max-width: 320px;
+   height: 320px;
+   border:4px solid white;
+}
+.content_describe_block_intro{
+   max-width: 185px;
+   height: 86px;
+   font-family: "Post No Bills Jaffna";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 64px;
+   text-align: center;
+   color:white;
+   margin-left: 25px;
+   margin-top: 93px;
+}
+.content_describe_block_intro_describe_location{
+   border-top:1px solid white;
+   margin-left: 25px;
+   margin-right: 30px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 30px;
+   text-align: center;
+   color:white;
+}
+.content_describe_information_block{
+   position: absolute;
+   max-width: 730px;
+   height: 96px;
+   left: 595px;
+   top: 684px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+/**/
+.block_info_season{
+   margin-top: 120px;
+   font-family:"Playfair Display";
+   display: grid;
+   grid-template-rows: 730px 600px;
+   grid-template-columns: 880px 160px 880px;
+}
+.block_info_season1{
+   grid-area: 1/1/2/3;
+   max-width: 1040px;
+   height: 730px;
+   background: #000000;
+}
+.block_info_season_text{
+position: absolute;
+max-width: 376px;
+height: 39px;
+left: 332px;
+margin-top: 92px;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+color: #FFFFFF;
+}
+.block_info_season_line{
+   margin-left: 35%;
+   padding-top: 18%;
+   max-width: 170px;
+   border-bottom: 1px solid white;
+}
+.block_clock{
+   display: grid;
+   margin-top: 50px;
+   margin-left: 80px;
+   grid-template-rows: 405px;
+   grid-template-columns: 260px 50px 260px 50px 260px;
+}
+.block_clock1{
+   grid-area: 1/1/2/2;
+   max-width: 260px;
+   height: 405px;
+}
+.block_on_block_season1{
+   background: #191B1C;
+   max-width: 260px;
+   height: 325px;
+}
+.block_on_block_season1 img{
+   margin-top:55px;
+   margin-left: 23px;
+}
+.block_info_season1_text1{
+   color:white;
+   font-size: 18px;
+}
+/**/
+.block_clock2{
+   grid-area: 1/3/2/4;
+}
+.block_on_block_season2{
+   background: #191B1C;
+   max-width: 260px;
+   height: 325px;
+}
+.block_on_block_season2 img{
+   margin-top:55px;
+   margin-left: 23px;
+}
+.block_info_season2_text2{
+   color:white;
+   font-size: 18px;
+}
+/**/
+.block_clock3{
+   grid-area: 1/5/2/6;
+}
+.block_on_block_season3{
+   background: #191B1C;
+   max-width: 260px;
+   height: 325px;
+}
+.block_on_block_season3 img{
+   margin-top:55px;
+   margin-left: 23px;
+}
+.block_info_season3_text3{
+   color:white;
+   font-size: 18px;
+}
+/**/
+.block_info_season2{
+   grid-area: 1/3/2/4;
+   color:white;
+}
+.block_info_season2_img img{
+   position: relative;
+}
+.block_info_season2_content{
+   position: absolute;
+   color:white;
+   max-width: 376px;
+   height: 146px;
+   left: 1292px;
+   top: 1418px;
+}
+.block_info_season2_content_new_colection{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 48px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   border-bottom: 1px solid white;
+   padding-bottom: 30px;
+   margin-bottom: 30px;
+}
+.block_info_season2_content_new_colection_catalog{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 23px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   border:1px solid white;
+   padding: 10px 25px 10px 25px;
+   max-width: 90px;
+   height: 23px;
+   margin-left: 125px;
+}
+.block_info_season2_content_new_colection_catalog:hover{
+   font-weight: bolder;
+   color:black;
+   background-color: white;
+
+}
+/**/
+.block_info_season3{
+   grid-area:2/1/3/2;
+}
+.block_info_season4{
+   grid-area:2/2/3/4;
+   background-color: black;
+}
+.block_info_season4_intro{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 36px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin-top: 100px;
+   border-bottom: 1px solid white;
+   max-width: 500px;
+   height: 80px;
+   margin-left: 270px;
+}
+.block_info_season4_content{
+   margin-top: 40px;
+   color:white;
+   text-align: center;
+}
+.block_info_season4_footer{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 23px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color:white;
+   margin-top: 73px;
+   margin-left: 343px;
+   border: 1px solid white;
+   padding: 10px 25px 10px 25px;
+   max-width: max-content;
+}
+.block_info_season4_footer:hover{
+   background-color: #fff;
+   color: black;
+   font-weight: bolder;
+}
+/**/
+.new_colection_block{
+   max-width: 1920px;
+   height: 1289px;
+   background-color: black;
+}
+.new_colection_block_wrapper{
+   padding-top: 120px;
+   padding-left: 405px;
+}
+.new_colection_block_intro{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   text-transform: uppercase; 
+   color: #FFFFFF; 
+   padding-bottom: 40px;
+   border-bottom: 1px solid white;
+   max-width: 380px;
+   height: 48px;
+   margin-left: 300px;
+}
+.new_colection_block_content{
+   margin-top: 121px;
+   display: grid;
+   grid-template-rows: 405px 40px 405px;
+   grid-template-columns: 260px 23px 260px 23px 260px 23px 260px;
+}
+.new_colection_block_content1{
+   grid-area: 1/1/2/2;
+   max-width: 260px;
+   height: 405px;
+}
+.new_colection_block_content_img1{
+   background: #191B1C;
+   max-width: 260px;
+   height: 325px;
+}
+.new_colection_block_content_img1 img{
+   margin-top:55px;
+   margin-left: 23px;
+}
+.new_colection_block_content_text1{
+   color:white;
+   font-size: 18px;
+}
+/**/
+.new_colection_block_content2{
+   grid-area: 1/3/2/4;
+   max-width: 260px;
+   height: 405px;
+}
+.new_colection_block_content_img2{
+   background: #191B1C;
+   max-width: 260px;
+   height: 325px;
+}
+.new_colection_block_content_img2 img{
+   margin-top:55px;
+   margin-left: 23px;
+}
+.new_colection_block_content_text2{
+   color:white;
+   font-size: 18px;
+}
+
+ .new_colection_block_content3{
+   grid-area: 1/5/2/6;
+   max-width: 260px;
+   height: 405px;
+}
+.new_colection_block_content_img3{
+   background: #191B1C;
+   max-width: 260px;
+   height: 325px;
+}
+.new_colection_block_content_img3 img{
+   margin-top:55px;
+   margin-left: 23px;
+}
+.new_colection_block_content_text3{
+   color:white;
+   font-size: 18px;
+}
+
+.new_colection_block_content4{
+   grid-area: 1/7/2/8;
+   max-width: 260px;
+   height: 405px;
+}
+.new_colection_block_content_img4{
+   background: #191B1C;
+   max-width: 260px;
+   height: 325px;
+}
+.new_colection_block_content_img4 img{
+   margin-top:55px;
+   margin-left: 23px;
+}
+.new_colection_block_content_text4{
+   color:white;
+   font-size: 18px;
+}
+
+.new_colection_block_content5{
+   grid-area: 2/1/3/2;
+   max-width: 260px;
+   height: 405px;
+}
+.new_colection_block_content_img5{
+   background: #191B1C;
+   max-width: 260px;
+   height: 325px;
+}
+.new_colection_block_content_img5 img{
+   margin-top:55px;
+   margin-left: 23px;
+}
+.new_colection_block_content_text5{
+   color:white;
+   font-size: 18px;
+}
+
+.new_colection_block_content6{
+   grid-area: 2/3/3/4;
+   max-width: 260px;
+   height: 405px;
+}
+.new_colection_block_content_img6{
+   background: #191B1C;
+   max-width: 260px;
+   height: 325px;
+}
+.new_colection_block_content_img6 img{
+   margin-top:55px;
+   margin-left: 23px;
+}
+.new_colection_block_content_text6{
+   color:white;
+   font-size: 18px;
+}
+
+.new_colection_block_content7{
+   grid-area: 2/5/3/6;
+   max-width: 260px;
+   height: 405px;
+}
+.new_colection_block_content_img7{
+   background: #191B1C;
+   max-width: 260px;
+   height: 325px;
+}
+.new_colection_block_content_img7 img{
+   margin-top:55px;
+   margin-left: 23px;
+}
+.new_colection_block_content_text7{
+   color:white;
+   font-size: 18px;
+}
+
+.new_colection_block_content8{
+   grid-area: 2/7/3/8;
+   max-width: 260px;
+   height: 405px;
+}
+.new_colection_block_content_img8{
+   background: #191B1C;
+   max-width: 260px;
+   height: 325px;
+}
+.new_colection_block_content_img8 img{
+   margin-top:55px;
+   margin-left: 23px;
+}
+.new_colection_block_content_text8{
+   color:white;
+   font-size: 18px;
+} 
+/**/
+.our_brends{
+   max-width: 1920px;
+   height: 362px;
+   background: #0F0F0F;
+}
+.our_brends_intro{
+   padding-bottom: 40px;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+.our_brends_intro_line{
+   border-bottom: 1px solid white;
+   max-width: 120px;
+   height: 0px;
+   margin-left: 900px;
+}
+.our_brends_block_company{
+   display: grid;
+   grid-template-rows: 94px;
+   grid-template-columns: 255px 30px 255px 30px 255px 30px 255px;
+}
+footer{
+   background-image: url(./IMG/footer.jpg);
+   max-width: 1920px;
+   height: 400px;
+}
+
+.footer_wrapper{
+   display: grid;
+   grid-template-columns: 350px 30px 350px 104px 210px;
+   grid-template-rows: 220px;
+   padding:80px 405px 101px 405px;
+}
+.about_magazine{
+   grid-area: 1/1/2/2;
+   max-height: 220px;
+   max-max-width: 350px;
+}
+.about_magazine_intro{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 32px;
+   text-transform: uppercase;
+   color:white;
+   margin-bottom: 40px;
+}
+.about_magazine_content{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   color:#b9b9b9;
+}
+.kategorii{
+   grid-area: 1/3/2/4;
+}
+.kategorii_intro{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin-bottom: 40px;
+}
+.block_kategorii{
+   display: grid;
+   grid-template-rows: 41px 20px 41px ;
+   grid-template-columns: 70px 20px 98px 20px 90px;
+}
+
+.kategorii_content1_send{
+   grid-area: 1/1/2/2;
+   background-color: black;
+   padding:10px 20px 10px 20px;
+   color: #D0D0D0;
+}
+.kategorii_content1_send:hover{
+   background-color: #D0D0D0;
+   padding:10px 20px 10px 20px;
+   color: black;
+}
+ .kategorii_content2_send{
+   grid-area: 1/3/2/4;
+   background-color: black;
+   padding:10px 20px 10px 20px;
+   color: #D0D0D0;
+}
+.kategorii_content2_send:hover{
+   background-color: #D0D0D0;
+   padding:10px 20px 10px 20px;
+   color: black;
+}
+.kategorii_content3_send{
+   grid-area: 1/5/2/6;
+   background-color: black;
+   padding:10px 20px 10px 20px;
+   color: #D0D0D0;
+}
+.kategorii_content3_send:hover{
+   background-color: #D0D0D0;
+   padding:10px 20px 10px 20px;
+   color: black;
+}
+.kategorii_content4_send{
+   grid-area: 3/1/4/4;
+   background-color: black;
+   padding:10px 20px 10px 20px;
+   color: #D0D0D0;
+}
+.kategorii_content4_send:hover{
+   background-color: #D0D0D0;
+   padding:10px 20px 10px 20px;
+   color: black;
+}
+.kategorii_content5_send{
+   grid-area: 3/5/4/6;
+   background-color: black;
+   padding:10px 20px 10px 20px;
+   color: #D0D0D0;
+}
+.kategorii_content5_send:hover{
+   background-color: #D0D0D0;
+   padding:10px 20px 10px 20px;
+   color: black;
+}
+.send{
+   grid-area: 1/5/2/6;
+}
+.send_send{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 32px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin-bottom: 40px;
+}
+.send_content{
+   max-width: 350px;
+   height: 50px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   color: #FFFFFF;
+}
+.send_textarea_button textarea{
+   max-width: 210px;
+   height: 42px;
+   background-color: rgba(255, 255, 255, 0.4);
+}
+.send_textarea_button button{
+   max-width: 140px;
+   height: 41px;
+   background: #0F0F0F;
+   color:white;
+}
+.send_textarea_button button:hover{
+
+   background: white;
+   color:#0F0F0F;
+}
+.footer_footer{
+   max-width: 1920px;
+   height: 50px;
+   background: #0F0F0F;
+}
+.footer_intro1{
+   padding-left: 405px;
+   padding-top: 17px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 16px;
+   color: #D0D0D0;
+}
+.footer_intro2{
+   position: absolute;
+   max-width: 155px;
+   height: 16px;
+   left: 1360px;
+   top: 3970px;
+   font-family: PT Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 16px;
+   text-align: right;
+   text-decoration-line: underline;
+   color: #D0D0D0;
+}
+
+
+
